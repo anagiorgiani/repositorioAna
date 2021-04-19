@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma-rtl.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Trabalhe conosco</title>
+</head>
+
+<body>
+    
+        <header class="section" >
+            <h1 id="title" class="title is-2 has-text-centered">Cadastre seu currículo aqui!!!</h1>
+            <h2 class="title is-3 has-text-centered">Venha fazer parte da equipe!</h2>
+        </header>
+   
+    
+        <section id="form" class="section">
+    <form action="" method="GET" enctype="multipart/form-data">
+       
+
+                             <!-- Nome -->
+<div class="field">
+    <label class="label" for="name" >Nome</label>
+    <div class="control">
+                <input class= "input" type="text" id="name" name="nome" maxlength="40" required>
+    </div>
+    </div>
+
+
+                             <!-- email -->
+<div class="field">
+    <label class = "label" for="email">Digite seu email</label>
+    <div class="control">
+        <input class= "input" type="text" id="email" class="input is-info" name="email" maxlength="50" required>
+    </div>
+</div>
+
+                              <!-- CPF -->
+    <div class="field"  >  
+        <label class="label" for="cpf">Digite seu CPF</label>                    
+    <div class="control">
+        <input class="input" type="text" id="cpf" class="input is-info" name="cpf" maxlength="11" required>
+    </div>
+    </div>
+
+                            <!-- Endereço -->
+  <div class="field">
+    <label class="label" for="address">Digite seu endereço</label>
+    <div class="control">
+    <input class="input" type="text" id="address" class="input is-info" name="address" maxlength="200" required>
+    </div>
+  </div>
+
+                              <!-- Cidade -->
+<div class="field">
+        <label class="label" for="city">Digite seu cidade</label>
+        <div class="control">
+        <input class="input" type="text" id="city" class="input is-info" name="city" maxlength="28" required>
+    </div>
+
+                         <!-- Seleciona Estado -->
+    <div class="field">
+        <label class= "label" for=" dropdownestado">Estado</label>
+            <div class="control">
+            <div class="select">
+        <select name="estado" id="dropdownestado">
+        </select>
+    </div>
+    </div>
+</div>
+  <br>
+                             <!-- Complemento -->
+    <div class="field">
+        <p class="label">Complemento</p>
+        <div class="control">
+        <label class="radio">
+            <input type="radio" 
+            name="foobar">
+            Casa
+        </label>
+        <label class="radio">
+            <input type="radio" 
+            name="foobar" 
+            checked>
+            Apartamento
+        </label>
+    </div>
+    </div>
+
+                               <!-- resumo  -->
+
+    <div class="field">
+        <label class="label" for="emprego">Resumo currículo</label>
+    <div class="control">
+            <textarea class="textarea" 
+            type="text" id="emprego"  
+            placeholder="textarea"
+            maxlength="1000" required></textarea>
+    </div>
+    </div>
+
+                              <!-- cargo -->
+
+<div class="field">
+<label class="label" for="cargo">Cargo</label>
+    <div class="control">
+        <input class="input" type="text" id="cargo" class="input is-info" name="cargo" maxlength="40" required>
+        </div>
+</div>
+          <div class="field">
+        <label class="label" for="descricaocargo"> Descrição do Cargo</label>
+        <div class="control">
+        <input class="input" type="text" id="descricaocargo" class="input is-info" name="descricaocargo" maxlength="500" required>
+    </div>
+
+
+                                   <!-- date -->
+    <div class="field">
+        <label class="label">Data de inicio</label>
+        <div class="control">
+        <input type="date" id="date" name="date" required>
+    </div>
+    </div>
+
+
+                                  <!-- botão -->
+    
+    <div class="field is-grouped">
+  <div class="control"> 
+    <button class="button is-success" type="submit" id="myButton">Submit</button>
+    <button class="button is-danger" type="reset" id="reset">Limpar</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</form>
+ </section>
+</body>
+
+</html>
