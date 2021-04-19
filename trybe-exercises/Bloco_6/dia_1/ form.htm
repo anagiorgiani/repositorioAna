@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Trabalhe conosco</title>
+</head>
+<body>
+<header>
+    <h1 id="title">Cadastre seu currículo aqui!!!</h1>
+</header>
+<div id="div">
+    <fieldset>
+        <form action="" method="GET" enctype="multipart/form-data">
+        <label for="name">Digite seu nome</label>
+        <input type="text" id="name" name="nome" maxlength="40" required>
+        <br>
+        <br>
+        <label for="email">Digite seu email</label>
+        <input type="text" id="email" name="email" maxlength="50" required>
+        <br>
+        <br>
+        <label for="cpf">Digite seu CPF</label>
+        <input type="text" id="cpf" name="cpf" maxlength="11" required>
+        <br>
+        <br>
+        <label for="address">Digite seu endereço</label>
+        <input type="text" id="address" name="address" maxlength="200" required>
+        <br>
+        <br>
+        <label for="city">Digite seu cidade</label>
+        <input type="text" id="city" name="city" maxlength="28" required>
+        <br>
+        <br>
+        <label for="dropdownestado">Digite seu Estado</label>
+        <select name="estado" id="dropdownestado">
+        </select>    
+        <br>
+        <br>
+        <label for="typehome">Complemento:</label>
+        <label for="typehome">
+        <input type="radio" id="typehome" name="typehome" required>Apartamento</label>
+        <label for="typehome2"> 
+        <input type="radio" id="typehome2" name="typehome" required> Casa</label>
+        <br>
+    </fieldset>
+    
+  <fieldset>
+      <label for="emprego">Resumo currículo</label>
+      <br>
+      <br>
+  <textarea type ="text" id="emprego" maxlength="1000" required>Sobre seu curriculo</textarea>
+<br>
+<br>
+<label for="cargo">Cargo</label>
+<input type="text" id="cargo" name="cargo" maxlength="40" required>
+<label for="descricaocargo"> Descrição do Cargo</label>
+<input type="text" id="descricaocargo" name="descricaocargo" maxlength="500" required>
+<br>
+<br>
+<label>Data de inicio</label>
+<input type="date" id="date" name="date"  required>
+<br>
+<br>
+<label for= submit>
+<button type="submit" id= "myButton">Submit</button></label>
+<label for="reset"></label>
+<button type="reset" id="reset"  name="reset">Limpar</button>
+ 
+
+ 
+  </div>  
+</form>   
+        <script src="script.js"></script>
+</body>
+</html>

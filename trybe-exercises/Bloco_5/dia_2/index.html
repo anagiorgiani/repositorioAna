@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício 5.2</title>
+  <style>
+    div {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+
+    .main-content .left-content {
+      background-color: green;
+      width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .main-content .left-content .small-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+    }
+
+    .main-content .right-content {
+      background-color: blue;
+      width: 60%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .main-content .description {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    const textBody = document.querySelector('body');
+    const textTitle = document.createElement('h1');
+    textTitle.innerText = 'Exercício 5.2 - JavaScript DOM';
+    textTitle.classList.add('title')
+    textBody.appendChild(textTitle);
+
+    const divOne = document.createElement('div');
+    divOne.classList.add('main-content')
+    divOne.style.backgroundColor = 'green'
+    textBody.appendChild(divOne)
+
+    const divSon = document.createElement('div')
+    divSon.classList.add('center-content')
+    divOne.appendChild(divSon)
+
+    const targetP = document.createElement('p')
+    targetP.innerText = 'ensinamentos sobre manipulação de elementos'
+    divSon.appendChild(targetP)
+
+    const divThree = document.createElement('div')
+    divThree.classList.add('left-content')
+    divOne.appendChild(divThree)
+
+    const divFour = document.createElement('div')
+    divFour.classList.add('right-content')
+    divFour.innerText = "elementos bacanudos"
+    divFour.style.marginRight = 'auto'
+    divOne.appendChild(divFour)
+
+
+    const img = document.createElement('img')
+    img.classList.add('small-image')
+    img.src = 'https://picsum.photos/200'
+    divThree.appendChild(img)
+
+
+
+    let list = document.createElement('ol')
+    let listItem = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+   
+
+    for (let i = 0; i < listItem.length; i++) {
+      let li = document.createElement('li')
+      li.classList.add('itens')
+      li.innerText = listItem[i]
+      list.appendChild(li)
+    }
+    divFour.appendChild(list)
+
+    const subTitle1 = document.createElement('h3')
+    const subTitle2 = document.createElement('h3')
+    const subTitle3 = document.createElement('h3')
+    divOne.appendChild(subTitle1)
+    divOne.appendChild(subTitle2)
+    divOne.appendChild(subTitle3)
+    subTitle1.classList.add('description')
+    subTitle2.classList.add('description')
+    subTitle3.classList.add('description')
+    subTitle1.innerText = "Oi ";
+    subTitle2.innerTex = 'Oi';
+    subTitle3.innerText = 'Oi';
+
+  
+
+    divOne.removeChild(divThree)
+
+    let listEx = document.getElementsByClassName('itens')
+    let arrayEx = []
+    for (let i = 0; i < listEx.length; i ++ ){
+      let itens = listEx[i] 
+  
+      if (itens.innerText.includes('nove') || itens.innerText.includes('dez')) {
+        arrayEx.push(itens)
+      }
+    }
+
+    for(let index= 0; index <arrayEx.length; index ++) {
+      list.removeChild(arrayEx[index])
+    }
+    
+
+    
+
+
+  </script>
+</body>
+
+</html>
