@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .container {
+      background-color: skyblue;
+
+  }
+
+  .header {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(57, 159, 218);
+      font-size: 25px;
+
+  }
+
+  .nav ul { 
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      background-color:rgb(57, 159, 218);
+      font-size: 20px;
+      list-style: none;
+      margin-top: 0%;
+      padding-right: 50px;
+
+
+  }
+
+  .aside-one p {
+     font-size: 20px;
+     
+
+
+  }
+
+  .aside-two p {
+    font-size: 20px;
+
+  }
+
+  .main-content p {
+      font-size: 25px;
+      margin-top: 10px;
+      line-height: 40px;
+      text-align: justify;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+
+
+  }
+
+  .footer p {
+      font-size: 20px;
+      text-align: justify;
+      margin: 0 15px 0px 15px;
+      padding-bottom: 30px;
+
+  }
+
+
+  h2 {
+      font-size: 40px;
+      background-color: rgb(57, 159, 218);;
+      margin-left: 10px;
+      font-family: fantasy;
+  }
+
+  h1 {
+      font-size: 40px;
+      margin-left: 10px;
+      font-family: fantasy;
+  }
