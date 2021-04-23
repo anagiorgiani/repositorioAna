@@ -38,7 +38,7 @@ function enviardados() {
             alert("Preencha campo NOME corretamente!");
             document.querySelector('#name').focus();
             Event.preventDefault(Event)
-            return false;
+            return ;
         }
 
 
@@ -48,7 +48,7 @@ function enviardados() {
             alert("Preencha campo E-MAIL corretamente!");
             document.querySelector('#email').focus();
             Event.preventDefault(Event)
-            return false;
+            return ;
         }
 
         if (document.querySelector('#cpf').value.length < 11) {
@@ -56,7 +56,7 @@ function enviardados() {
 
             document.querySelector('#cpf').focus();
             Event.preventDefault(Event)
-            return false;
+            return ;
         }
     })
 }
