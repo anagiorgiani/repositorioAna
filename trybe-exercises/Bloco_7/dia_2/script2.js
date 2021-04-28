@@ -59,7 +59,7 @@ console.table(allLessons)
 
 
 const getNumberOfStudents = (obj) => {
-    
+
     let total = 0;
     const array = Object.keys(obj);
     for (index in array) {
@@ -68,18 +68,30 @@ const getNumberOfStudents = (obj) => {
     return total;
 };
 console.log(getNumberOfStudents(allLessons));
-    
+
 
 
 const position = () => {
     const parChaveValor = Object.values(lesson3);
     console.log(parChaveValor[2]);
-    }
+}
 
 position();
 
 
 
+const checkObj = (obj, chave, valor) => {
 
+    arrayObj = Object.entries(obj);
 
+    let isTrueorFalse = false;
 
+    for (let key in arrayObj) {
+
+        if (arrayObj[key][0] === chave && arrayObj[key][1] && valor) isTrueorFalse = true;
+    }
+
+    return isTrueorFalse;
+
+}
+console.log(checkObj(lesson3, 'turno', 'noite'))
