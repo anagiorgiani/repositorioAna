@@ -18,7 +18,7 @@ function palindromo(palavra) {
   }
 
 }
-console.log(palindromo('ana'))
+console.log(palindromo('daniel'))
 
 //  Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
 
@@ -86,6 +86,32 @@ function retornaMaiorNome() {
 retornaMaiorNome(lista)
 
 
+
+// 5- Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+// Array de teste: [2, 3, 2, 5, 8, 2, 3]; .
+// Valor esperado no retorno da função: 2 .
+function retornaNum(arrayNumber) {
+  let soma = 0;
+  let guardaRep = 0;
+  let repeticao = 0;
+
+  for (let index1 = 0; index1 < arrayNumber.length; index1 += 1) {
+    soma = 0;
+    for (let index2 = 0; index2 < arrayNumber.length; index2 += 1)
+      if (arrayNumber[index1] === arrayNumber[index2]) {
+        soma += 1;
+      }
+    if (soma > guardaRep) {
+      guardaRep = soma;
+      repeticao = arrayNumber[index1]
+    }
+    return repeticao;
+  }
+}
+
+console.log(retornaNum([2, 3, 2, 5, 8, 2, 3]));
+
+
 // 6-Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
 
 function somaNumeros(numero) {
@@ -100,13 +126,15 @@ function somaNumeros(numero) {
 console.log(somaNumeros(5));
 
 // 
-let nome = 'AMOR' 
-let final = nome.substring(nome.length-2, nome.length)
-
-console.log(final)
-
 
 // 
-function verificaPalavraFim (nome.length-2, nome.length)
+function verificaPalavraFim(word, ending) {
 
-if ()
+  if (word.substring(word.length - 2) === ending) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+console.log(verificaPalavraFim('trybe', 'be'));
