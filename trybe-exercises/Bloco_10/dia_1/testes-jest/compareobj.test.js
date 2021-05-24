@@ -1,6 +1,6 @@
-const obj1 = require("../exercises-jest/exercises5");
-const obj2 = require("../exercises-jest/exercises5");
-const obj3 = require("../exercises-jest/exercises5");
+const obj1 = require("../exercises-jest/compareobj");
+const obj2 = require("../exercises-jest/compareobj");
+const obj3 = require("../exercises-jest/compareobj");
 
 describe('requisito 5', () => {
     it('compare os objetos', () => {
