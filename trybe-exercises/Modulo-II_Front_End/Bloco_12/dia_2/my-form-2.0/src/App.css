@@ -1,0 +1,118 @@
+
+.field {
+    margin: 20px  100px 30px 100px;
+    background-color: rgb(221, 223, 192)
+    
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 50px;
+    background-color: cornflowerblue;
+}
+
+
+.nome{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    font-family: cursive;
+    width: 250px;
+}
+
+.email {
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 5px 5px 5px 5px;
+        border-color: blue;
+        width: 250px;
+    }
+
+.cpf {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    font-family: cursive;
+    width: 250px;
+}    
+
+.endereco {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    font-family: cursive;
+    width: 250px;
+}
+
+.estado {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    width: 80px;
+    font-family: cursive;
+}
+
+.resumo {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    font-family: cursive;
+    width: 150px;
+}
+
+.cargo {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    font-family: cursive;
+    width: 150px;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    font-family: cursive;
+    width: 150px;
+}
+
+.complemento {
+    border-color: blue;
+    font-family: cursive;
+}
+
+.red {
+    background-color: red;
+    border-radius: 5px;
+    color: seashell;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.green {
+    background-color: rgb(32, 214, 25);
+    border-radius: 5px;
+    color: seashell;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
