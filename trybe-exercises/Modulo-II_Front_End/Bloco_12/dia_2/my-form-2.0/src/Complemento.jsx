@@ -4,30 +4,32 @@ class Complemento extends React.Component {
 
   render() {
 
-    const { value } = this.props
     const { HandlerChange } = this.props
-    return (
-      <label>
-        Complemento:
-        Casa
-        <input
-          className='complemento'
-          name='complemento'
-          type='radio'
-          value= 'casa'
-          onChange={HandlerChange} />
-          Apto
-          <input
-          className='complemento'
-          name='complemento'
-          type='radio'
-          value='apto'
-          onChange={HandlerChange} />
-          
+    return(
+      <div>
+      <label htmlFor='house'>
+      <input 
+      type='radio'
+      id='house'
+      name='complemento'
+      value='House'
+      onChange={ HandlerChange }
+      />
+      Casa
       </label>
-
-    )
-  }
-}
+      <label htmlFor='apart'>
+      <input
+      type='radio'
+      id='apart'
+      name='complemento'
+      value='Apartament'
+      onChange={ HandlerChange }
+      />
+      Apartamento
+      </label>
+      </div>
+      )
+      }
+      }
 
 export default Complemento;
