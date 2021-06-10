@@ -15,6 +15,7 @@ Fundamentos do Desenvolvimento Web (Módulo I)
 <li>Bloco 10: Testes automatizados com Jest</li>
 </ul>
 Desenvolvimento Front-end (Módulo II)
+
 <ul>
 <li>Bloco 11: Introdução à React</li>
 <li>Bloco 12: Componentes com Estado, Eventos e Formulários com React</li>
