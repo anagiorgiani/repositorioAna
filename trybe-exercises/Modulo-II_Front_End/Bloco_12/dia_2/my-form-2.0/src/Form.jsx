@@ -17,7 +17,7 @@ const stateInit ={
   cpf: '',
   endereco: '',
   estado: '',
-  complemento: false,
+  complemento: '',
   resumo: '',
   cargo: '',
   descricao: '',
@@ -41,7 +41,7 @@ class Form extends React.Component {
       cpf: '',
       endereco: '',
       estado: '',
-      complemento: false,
+      complemento: '',
       resumo: '',
       cargo: '',
       descricao: '',
@@ -71,9 +71,9 @@ class Form extends React.Component {
     }
   }
 
-  UpperCaseName (str){
-     return str.toUpperCase();
-  }
+   UpperCaseName (str){
+      return str.toUpperCase();
+   }
 
   validateEmail = email => email.replace(/[^\w\s]/gi, '')
 
