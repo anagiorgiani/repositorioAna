@@ -1,6 +1,8 @@
 # repositorioAna
 
-<img src="img/gitfem.png" width= 300px />
+<h1> Repositório destinado aos exercícios da Trybe de fixação dos conteúdos referentes a cada bloco. </h1>
+<img src="img/gitfem.png" width= 200px />
+
 
 Fundamentos do Desenvolvimento Web (Módulo I)
 
