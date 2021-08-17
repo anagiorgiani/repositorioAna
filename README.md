@@ -33,3 +33,23 @@ Desenvolvimento Front-end (Módulo II)
 <li>Bloco 18: Context API e React Hooks</li>
 <li>Bloco 19: Projeto App de Receitas</li>
 </ul>
+
+
+Desenvolvimento Back-end (Módulo III)
+
+<ul>
+<li>Bloco 20: Introdução à SQL</li>
+<li>Bloco 21: Funções SQL, Joins e Subqueries</li>
+<li>Bloco 22: Normalização e Modelagem de Banco de Dados</li>
+<li>Bloco 23: Introdução ao MongoDB</li>
+<li>Bloco 24: MongoDB: Updates Simples e Complexos</li>
+<li>Bloco 25: MongoDB: Aggregation Framework</li>
+<li>Bloco 26: Introdução ao desenvolvimento Web com NodeJS</li>
+<li>Bloco 27: NodeJS: Camada de Serviço e Arquitetura Rest e Restful</li>
+<li>Bloco 28: Autenticação e Upload de Arquivos</li>
+<li>Bloco 29: Deployment</li>
+<li>Bloco 30: Arquitetura: SOLID e ORM</li>
+<li>Bloco 31: Sockets</li>
+<li>Bloco 32: Projeto - App de Delivery</li>
+<ul>
+
