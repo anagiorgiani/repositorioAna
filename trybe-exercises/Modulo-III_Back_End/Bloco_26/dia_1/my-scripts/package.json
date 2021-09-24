@@ -1,0 +1,19 @@
+{
+  "name": "my-scripts",
+  "version": "1.0.0",
+  "description": "meu primeiro script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "IMC": "node IMC.js",
+    "IMC2": "node IMC2.js",
+    "Velocidade": "node Velocidade.js",
+    "Sorteio" : "node Sorteio.js"
+  
+  },
+  "author": "Ana Carolina Giorgiani",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
