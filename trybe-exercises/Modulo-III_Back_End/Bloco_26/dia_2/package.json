@@ -1,0 +1,17 @@
+{
+  "name": "dia_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FunctionNumbers.js",
+  "scripts": {
+    "FunctionNumbers": "node FunctionNumbers.js",
+    "FunctionNumbers2": "node FunctionNumbers2.js",
+    "FunctionNumbers3": "node FunctionNumbers3.js",
+    "Exercise4": "node NativeNodeFunctions.js",
+    "Exercise5": "node PromisseAll.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
